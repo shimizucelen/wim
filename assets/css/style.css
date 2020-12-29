@@ -959,7 +959,7 @@ p {
 
 .sticky .navbar-nav .nav-item.active > a,
 .sticky .navbar-nav .nav-item:hover > a {
-    color: #361CC1;
+    color: #fe7096;
 }
 
 /*===== HEADER HERO =====*/
@@ -967,7 +967,7 @@ p {
     position: relative;
     z-index: 5;
     background-position: bottom center;
-    height: 80vh
+    height: 100vh
 }
 
 #particles-1 {
@@ -1035,7 +1035,7 @@ p {
 }
 
 .header-hero-image {
-    padding-top: 45px;
+    padding-top: 10vh;
 }
 
 .header-hero-image img {
@@ -1050,7 +1050,7 @@ p {
 
 @media (max-width: 767px) {
     .header-hero-image {
-        padding-top: 30px;
+        padding-top: 20vh;
     }
 }
 
@@ -1061,6 +1061,13 @@ p {
     .brand-logo {
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    }
+
+    .header-hero {
+        position: relative;
+        z-index: 5;
+        background-position: bottom center;
+        height: 100vh
     }
 }
 
@@ -1853,6 +1860,7 @@ p {
         margin-top: 10px;
         border-radius: 5px;
     }
+
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -1885,12 +1893,34 @@ p {
     content: '';
     bottom: 0;
     left: 0;
-    height: 100%;
+    height: 50%;
     width: 100%;
-    background-image: url(../images/footer-bg.svg);
+    background-color: rgba(255, 0, 0, 0.53);
     background-position: top center;
     z-index: -1;
     background-size: cover;
+}
+
+@media only screen and (max-width: 767px) {
+    .footer-area {
+        background-position: top center;
+        position: relative;
+        z-index: 5;
+    }
+
+    .footer-area::before {
+        position: absolute;
+        content: '';
+        bottom: 0;
+        left: 0;
+        height: 90%;
+        width: 100%;
+        background-color: rgba(92, 1, 85, 0.39);
+        background-position: top center;
+        z-index: -1;
+        background-size: cover;
+    }
+
 }
 
 @media only screen and (min-width: 1921px) {
