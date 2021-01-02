@@ -1972,7 +1972,7 @@ p {
 }
 
 .footer-about .social li a:hover {
-    color: #FE8464;
+    color: #109aff;
 }
 
 .footer-title .title {
@@ -2083,12 +2083,21 @@ p {
 
 
 @font-face {
-    font-family: 'Hanzipen';
-    src: url('../fonts/Hanzipen.ttc') format('truetype');
+    font-family: 'HanziPen-W3';
+    src: url('../fonts/HanziPen-W3.otf') format('truetype');
 }
 
 .font1 {
-    font-family: 'Hanzipen';
+    font-family: 'HanziPen-W3';
+}
+
+@font-face {
+    font-family: '姫明朝ともえごぜんmini';
+    src: url(../fonts/'姫明朝ともえごぜんmini.otf') format('opentype');
+}
+
+.font2 {
+    font-family: '姫明朝ともえごぜんmini';
 }
 
 .mi {
