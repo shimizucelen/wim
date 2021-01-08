@@ -130,14 +130,6 @@ p {
     margin: 0px;
 }
 
-.bg_cover {
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
-}
-
 /*===== All Slick Slide Outline Style =====*/
 .slick-slide {
     outline: 0;
@@ -171,6 +163,12 @@ p {
     background: -o-linear-gradient(left, #33c8c1 0%, #119bd2 50%, #33c8c1 100%);
     background: linear-gradient(to right, #33c8c1 0%, #119bd2 50%, #33c8c1 100%);
     background-size: 200%;
+}
+
+.bgg-blue {
+    background: -webkit-linear-gradient(left, #33c8c1 0%, #119bd2 50%, #33c8c1 100%) !important;
+    background: -o-linear-gradient(left, #33c8c1 0%, #119bd2 50%, #33c8c1 100%) !important;
+    background: linear-gradient(to right, #33c8c1 0%, #119bd2 50%, #33c8c1 100%) !important;
 }
 
 .main-btn:hover {
@@ -332,7 +330,7 @@ p {
     height: 100%;
     border-style: solid;
     /* Spinner Color */
-    border-color: #361CC1 #361CC1 #E1E1E1;
+    border-color: #004192 #004192 #E1E1E1;
     border-radius: 50%;
     border-width: 6px;
 }
@@ -650,7 +648,6 @@ p {
 }
 
 .navbar {
-    padding: 25px 0;
     border-radius: 5px;
     position: relative;
     -webkit-transition: all 0.3s ease-out 0s;
@@ -963,12 +960,6 @@ p {
 }
 
 /*===== HEADER HERO =====*/
-.header-hero {
-    position: relative;
-    z-index: 5;
-    background-position: bottom center;
-    height: 100vh
-}
 
 #particles-1 {
     position: absolute;
@@ -976,7 +967,7 @@ p {
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: -1;
+    z-index: 10;
 }
 
 .header-hero-content {
@@ -1126,9 +1117,10 @@ p {
     -ms-transition: all 0.3s ease-out 0s;
     -o-transition: all 0.3s ease-out 0s;
     transition: all 0.3s ease-out 0s;
-    padding: 50px 30px;
-    border: 2px solid transparent;
+    padding: 30px 30px;
+    border: 1px solid transparent;
     border-radius: 8px;
+    border-color: black;
 }
 
 @media (max-width: 767px) {
@@ -1198,7 +1190,7 @@ p {
 }
 
 .single-services .services-content .services-title a:hover {
-    color: #361CC1;
+    /*    color: #361CC1;*/
 }
 
 .single-services .services-content .text {
@@ -1228,7 +1220,7 @@ p {
 }
 
 .single-services .services-content .more:hover {
-    color: #361CC1;
+    /*    color: #361CC1;*/
 }
 
 .single-services:hover {
@@ -1893,9 +1885,9 @@ p {
     content: '';
     bottom: 0;
     left: 0;
-    height: 50%;
+    height: 60%;
     width: 100%;
-    background-color: rgba(255, 0, 0, 0.53);
+    background-color: rgba(0, 0, 0, 0.85);
     background-position: top center;
     z-index: -1;
     background-size: cover;
@@ -1913,9 +1905,9 @@ p {
         content: '';
         bottom: 0;
         left: 0;
-        height: 90%;
+        height: 80%;
         width: 100%;
-        background-color: rgba(92, 1, 85, 0.39);
+        background-color: rgba(0, 0, 0, 0.85);
         background-position: top center;
         z-index: -1;
         background-size: cover;
@@ -2083,17 +2075,17 @@ p {
 
 
 @font-face {
-    font-family: 'HanziPen-W3';
-    src: url('../fonts/HanziPen-W3.otf') format('truetype');
+    font-family: 'Apple Chancery';
+    src: url('../fonts/Apple Chancery.ttf') format("truetype");
 }
 
 .font1 {
-    font-family: 'HanziPen TC';
+    font-family: 'Apple Chancery';
 }
 
 @font-face {
     font-family: '姫明朝ともえごぜんmini';
-    src: url(../fonts/'姫明朝ともえごぜんmini.otf') format('opentype');
+    src: url('../fonts/姫明朝ともえごぜんmini.otf') format('opentype');
 }
 
 .font2 {
@@ -2122,4 +2114,78 @@ p {
     text-align: center;
     border: none;
     z-index: 1000
+}
+
+.header-hero {
+    height: 80vh
+}
+
+.bg_cover {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.bg_cover_t {
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.tc1 {
+    background-image: url(../images/mt1.png)
+}
+
+.tc2 {
+    background-image: url(../images/mt2.png)
+}
+
+.tc3 {
+    background-image: url(../images/mt3.png)
+}
+
+.tt {
+    position: absolute;
+    z-index: 50
+}
+
+.tti {
+    position: absolute;
+    top: -8%;
+    left: 0;
+    z-index: 50;
+    filter: drop-shadow(2px 2px 0px #ffffff);
+}
+
+.nav-logo1 {
+    height: 15vh;
+    filter: drop-shadow(1px 1px 0px #ffffff);
+}
+
+.nav-logo2 {
+    height: 7vh;
+    filter: drop-shadow(1px 1px 0px #ffffff);
+}
+
+#particles-3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+
+.snav-back {
+    background-color: white
+}
+
+.snav-h {
+    height: 90vh
+}
+
+.snav-t {
+    padding-top: 25%
 }
