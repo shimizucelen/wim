@@ -73,6 +73,10 @@ $(function () {
         $(".nav-1").toggleClass("snav-t");
     });
 
+    $(".navbar-toggler").on('click', function () {
+        $(".container").toggleClass("snav-m");
+    });
+
 
     //====== Magnific Popup
 
