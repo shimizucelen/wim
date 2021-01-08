@@ -2084,12 +2084,12 @@ p {
 }
 
 @font-face {
-    font-family: '姫明朝ともえごぜんmini';
-    src: url('../fonts/姫明朝ともえごぜんmini.otf') format('opentype');
+    font-family: 'tomoemini';
+    src: url('../fonts/tomoemini.otf') format('opentype');
 }
 
 .font2 {
-    font-family: '姫明朝ともえごぜんmini';
+    font-family: 'tomoemini';
 }
 
 .mi {
