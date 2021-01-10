@@ -2135,15 +2135,23 @@ p {
 }
 
 .tc1 {
-    background-image: url(../images/mt3.png)
+    background-image: url(../images/slide1.jpg);
+    background-position: 50% 10%
 }
 
 .tc2 {
-    background-image: url(../images/office.jpg)
+    background-image: url(../images/slide2.JPG);
+    background-position: 50% 0%
 }
 
 .tc3 {
-    background-image: url(../images/mt2.png)
+    background-image: url(../images/slide3.JPG);
+    background-position: 0% 25%
+}
+
+.tc4 {
+    background-image: url(../images/slide4.JPG);
+    background-position: 50% 0%
 }
 
 .tt {
