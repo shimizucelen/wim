@@ -648,6 +648,7 @@ p {
 }
 
 .navbar {
+    border-radius: 5px;
     position: relative;
     -webkit-transition: all 0.3s ease-out 0s;
     -moz-transition: all 0.3s ease-out 0s;
@@ -2115,15 +2116,8 @@ p {
     z-index: 1000
 }
 
-
 .header-hero {
-    height: 60vh
-}
-
-@media only screen and (max-width: 921px) {
-    .header-hero {
-        height: 40vh
-    }
+    height: 80vh
 }
 
 .bg_cover {
@@ -2147,7 +2141,7 @@ p {
 
 .tc2 {
     background-image: url(../images/slide2.JPG);
-    background-position: 85% 0%
+    background-position: 50% 0%
 }
 
 .tc3 {
@@ -2161,14 +2155,13 @@ p {
 }
 
 .tt {
-    padding-top: 5%;
     position: absolute;
     z-index: 50
 }
 
 .tti {
     position: absolute;
-    top: 0;
+    top: -8%;
     left: 0;
     z-index: 50;
     filter: drop-shadow(2px 2px 0px #ffffff);
