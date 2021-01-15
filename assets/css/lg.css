@@ -648,6 +648,7 @@ p {
 }
 
 .navbar {
+    border-radius: 5px;
     position: relative;
     -webkit-transition: all 0.3s ease-out 0s;
     -moz-transition: all 0.3s ease-out 0s;
@@ -1893,6 +1894,7 @@ p {
 }
 
 @media only screen and (max-width: 767px) {
+
     .footer-area {
         background-position: top center;
         position: relative;
@@ -1914,7 +1916,7 @@ p {
 
 }
 
-@media only screen and (min-width: 1921px) {
+@media only screen and (min-width: 921px) {
     .footer-area::before {
         height: 1120px;
     }
@@ -2115,15 +2117,8 @@ p {
     z-index: 1000
 }
 
-
 .header-hero {
-    height: 60vh
-}
-
-@media only screen and (max-width: 921px) {
-    .header-hero {
-        height: 40vh
-    }
+    height: 80vh
 }
 
 .bg_cover {
@@ -2161,14 +2156,13 @@ p {
 }
 
 .tt {
-    padding-top: 5%;
     position: absolute;
     z-index: 50
 }
 
 .tti {
     position: absolute;
-    top: 0;
+    top: -8%;
     left: 0;
     z-index: 50;
     filter: drop-shadow(2px 2px 0px #ffffff);
