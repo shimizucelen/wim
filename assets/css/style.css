@@ -2120,6 +2120,12 @@ p {
     height: 80vh
 }
 
+@media only screen and (max-width: 921px) {
+    .header-hero {
+        height: 40vh
+    }
+}
+
 .bg_cover {
     background-position: center center;
     background-size: cover;
@@ -2141,7 +2147,7 @@ p {
 
 .tc2 {
     background-image: url(../images/slide2.JPG);
-    background-position: 50% 0%
+    background-position: 85% 0%
 }
 
 .tc3 {
@@ -2156,12 +2162,13 @@ p {
 
 .tt {
     position: absolute;
-    z-index: 50
+    z-index: 50;
+
 }
 
 .tti {
     position: absolute;
-    top: -8%;
+    top: 0;
     left: 0;
     z-index: 50;
     filter: drop-shadow(2px 2px 0px #ffffff);
